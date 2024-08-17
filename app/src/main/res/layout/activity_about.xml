@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1DE8D0"
+    tools:context=".AboutActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="   About Page"
+        app:titleTextColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#1DE8D0"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:text="Welcome to our Quotes App\n\nwhere inspiration meets wisdom.\nImmerse yourself in a world of profound thoughts,witty sayings, and timeless words of wisdom from renowned authors, thinkers, and leaders. Whether you seek daily motivation, shareable moments, or a dose of insight, our app is your gateway to a treasury of quotes that will elevate your day.\n\nExplore, contemplate, and share the wisdom with friends and loved ones. Discover the power of words that inspire, uplift, and connect us."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
